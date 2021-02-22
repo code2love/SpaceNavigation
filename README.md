@@ -26,7 +26,6 @@ In diesem Projekt wird eine asynchrone Value Iteration unter Zuhilfenahme von <a
 ## Repository-Struktur
 
 - <a href="data/" target="_blank">`data/`</a> - enthält Datensätze
-- <a href="install_files/" target="_blank">`install_files/`</a> - enthält alle benötigten Debian-Dateien zum Installieren von <a href="https://www.open-mpi.org/" target="_blank">`OpenMPI`</a> [Version 2.2.1]
 - <a href="lib/" target="_blank">`lib/`</a> - enthält alle benötigten Lirbraries
 - <a href="results/" target="_blank">`results/`</a> - enthält die Resultate der Implementierungen
 - <a href="src/" target="_blank">`src/`</a> - enthält den C++ Quellcode
