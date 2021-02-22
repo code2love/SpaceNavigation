@@ -13,9 +13,7 @@
 - [`Evaluation verschiedener Implementierungen`](#evaluation-verschiedener-implementierungen)
 - [`Programm ausführen`](#programm-ausführen)
 - [`Benchmark Vergleich`](#benchmark-vergleich)
-- [`OpenMPI installieren`](#openmpi-installieren)
 - [`Gruppen Mitglieder`](#gruppen-mitglieder) 
-- [`Anhang`](#anhang)
 
 ---
 
