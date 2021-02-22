@@ -1,2 +1,9 @@
 .vscode/
 build/
+data/
+documentation/
+.idea/
+cmake-build-debug/
+.ipynb_checkpoints
+*.ipynb
+.debug.log
