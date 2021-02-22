@@ -82,7 +82,7 @@ Wenn mehrere Implementierungen verglichen werden sollen wird in der <a href="mai
 ## Programm ausführen
 
 1. Melde dich über ssh auf einem HPC Rechner (Bsp: `hpc05`) an
-2. Wechsele in das `LRZ-Home` Verzeichnis
+2. Wechsele in Home Verzeichnis
 3. Klone das Repository
 
 ```text
@@ -90,10 +90,10 @@ Wenn mehrere Implementierungen verglichen werden sollen wird in der <a href="mai
 ssh hpc05
 
 # In das LRZ-Home Verzeichnis wechseln
-cd lrz-nashome
+cd ~/
 
 # Repository klonen
-git clone https://gitlab.ldv.ei.tum.de/cpp-lk20/gruppe1.git
+git clone https://github.com/code2love/SpaceNavigation.git
 
 # Bzw. neuesten Stand pullen (wenn Projekt schon vorhanden ist)
 cd gruppe1
@@ -197,17 +197,6 @@ In der darunter zu sehenden Grafik wird ein Varianz Plot präsentiert, der die A
 
 ---
 
-## OpenMPI installieren
-
-Installer Dateien sind im Ordner <a href="install_files/" target="_blank">`install_files/`</a> abgelegt und müssen in nachfolgender Reihenfolge installiert werden (Linux Umgebung: Ubuntu, WSL2, etc.). Anschließend ist Version `2.2.1` installiert.
-```cmd
-1. cd install_files
-2. sudo dpkg -i libhwloc5_1.11.9-1_amd64.deb
-3. sudo dpkg -i libopenmpi2_2.1.1-8_amd64.deb
-4. sudo dpkg -i openmpi-common_2.1.1-8_all.deb
-5. sudo dpkg -i openmpi-bin_2.1.1-8_amd64.deb
-```
----
 
 ## Gruppen Mitglieder
 
@@ -221,24 +210,3 @@ Installer Dateien sind im Ordner <a href="install_files/" target="_blank">`insta
 
 ---
 
-## Anhang
-
-<a href="https://www.open-mpi.org/" target="_blank">`OpenMPI`</a> Versionen auf den Eikon Rechnern
-
-| HPC Rechner          | OpenMPI Version        |
-| -------------------- | ---------------------- |
-| `hpc01`              | `2.2.1`                |
-| `hpc02`              | `2.2.1`                |
-| `hpc03`              | `2.2.1`                |
-| `hpc04`              | `nicht erreichbar`     |
-| `hpc05`              | `2.2.1`                |
-| `hpc06`              | `2.2.1`                |
-| `hpc07`              | `2.2.1`                |
-| `hpc08`              | `2.2.1`                |
-| `hpc09`              | `2.2.1`                |
-| `hpc10`              | `2.2.1`                |
-| `hpc11`              | `2.2.1`                |
-| `hpc12`              | `2.2.1`                |
-| `hpc13`              | `2.2.1`                |
-| `hpc14`              | `nicht erreichbar`     |
-| `hpc15`              | `2.2.1`                |
